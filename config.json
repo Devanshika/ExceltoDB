@@ -1,0 +1,11 @@
+{
+  "database_settings": {
+    "database_name": "dbname",
+    "host_name": "hostname",
+    "user_name": "username",
+    "password": "password"
+  },
+  "excel_file_name": "Excel-FileName.xlsx",
+  "insert_database_path": "databaseLogs.log",
+  "verify_database_path": "verifyDatabaseLogs.log"
+}
