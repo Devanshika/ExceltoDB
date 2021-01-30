@@ -1,0 +1,28 @@
+{
+	"name": "ExcelToDB",
+	"description": "Reads and Excel file and stores  that data in a Database with an existing table",
+	"version": "1.0.2",
+	"author": {
+		"name": "Devanshika Ghosh",
+		"email": "devanshika4@gmail.com"
+	},
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"xlsx": "0.15.2",
+		"mysql": "2.17.1",
+		"dateformat": "3.0.3"
+	},
+	"engines": {
+		"node": ">= 12.13.1"
+	},
+	"files": [
+		"config.json",
+		"Readme.md",
+		"app.js",
+		"modules/DatabaseManager.js",
+		"modules/ExcelParser.js"
+	]
+}
