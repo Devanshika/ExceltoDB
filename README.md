@@ -6,10 +6,10 @@ The code comprises of the following files:
 databaseManager.js, cleans the column values, creates an array of insertion queries and runs them.
 2. DatabaseManager.js: This file gets all the data related to the database like the db name, host, username and password
 from the config file. It also creates a log file with the number of records inserted in the database. 
-3. ExcelParser.js: Thsi file contains the code for parsing the EXcel data into JSOn so that it can be transferred into the
+3. ExcelParser.js: This file contains the code for parsing the Excel data into JSON so that it can be transferred into the
 database. 
 4. config.json: This file contains the details like excel file name and the database details.
-5. package.json: This file contains the dpeendencies which must be installed for npm to run. 
+5. package.json: This file contains the dependencies which must be installed for npm to run. 
 6. Logger: This file contains the code for creating a log file that will have data regarding execution. We have 2 log files. One for app.js and verifydb.js.
 7. Databaselogs: This file has the data for insertion execution.
 8. Verifydatabaselogs: This file has the data for validation execution.
